@@ -15,7 +15,6 @@ import static org.junit.Assert.assertEquals;
  * @author dekuofa <br>
  * @date 2018-12-20 <br>
  */
-
 public class AutoConfigTest {
 
     private final ApplicationContextRunner contextRunner = new ApplicationContextRunner()
