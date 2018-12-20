@@ -17,11 +17,7 @@ public class DemoProperties {
     public static final String DEFAULT_HOST = "localhost";
     public static final int    DEFAULT_PORT = 8000;
 
-    private String host;
-    private int    port;
+    private String host = DEFAULT_HOST;
+    private int    port = DEFAULT_PORT;
 
-    public DemoProperties() {
-        this.host = DEFAULT_HOST;
-        this.port = DEFAULT_PORT;
-    }
 }
